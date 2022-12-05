@@ -1,0 +1,2 @@
+f=x=>x[h='filter'](y=>y.includes`m`)[j='map'](y=>y.match(/e (\d+).+(\d).+(\d)/).slice(1,4)).flatMap(y=>[...'a'.repeat(y[0],a=(m=x[h](y=>y.includes`[`)[j]((y=>[...y][h]((_,i)=>i%4==1))))[0][j]((_,i)=>m[j](y=>y[i])[h](y=>y!=0)))][j](_=>[y[1],y[2]]))[j](y=>a[y[1]-1].unshift(a[y[0]-1].shift())?a:a).slice(-1)[0][j](y=>y[0]).join``
+console.log(f(require('fs').readFileSync('./input.txt', 'utf8').split('\r\n')))
